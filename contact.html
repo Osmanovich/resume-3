@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+    <title>Osmanović Ahmed</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>  
+    <!-- Name: Ahmed
+         Surname: Osmanović
+         Course: Web Aplication Development (CS402)
+         Assignment: Project1 - Biography -->      
+  </head>
+  <body onload="changeColorCon()">
+    <div class="outerWrapper">
+      <a id="index" href="index.html">Ahmed Osmanović</a>
+      <div class="wrapper">
+
+        <!--NAVIGATION-->
+        <div class="home">
+          <nav class="nav">
+              
+                  <a id="info" href="info.html">About</a>
+                  <a id="bio" href="bio.html">Biography</a>
+                  <a id="edu" href="edu.html">Education</a>
+                  <a id="con" href="contact.html">Contant</a>
+              
+          </nav>
+      
+
+
+        <!--HOME-->
+
+        
+          
+          
+          
+          
+          <div class="container">
+            <form id= "myForm" action="a">
+              <label for="name">First Name</label>
+              <input type="text" id="name" name="firstname" placeholder="Example: Dragutin"> <br>
+
+              <label for="surname">Last Name</label>
+              <input type="text" id="surname" name="lastname" placeholder="Example: Gavrilovic"> <br>
+
+              <label for="email">Enter email</label> 
+              <input type="email" id="email" name="email" placeholder="Example: dragutin.gavrilovic@gmail.com"> <br>
+
+              <label for="msg">Message:</label> 
+              <textarea id="subject" name="subject" placeholder="Write Your message here... " style="height: 150px"></textarea><br> 
+
+              <input type="submit" value="Submit" onclick="validateForm()">
+            </form>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </body>
+</html>
